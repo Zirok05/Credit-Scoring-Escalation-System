@@ -58,6 +58,7 @@ python src/train_full_dataset.py
 
 # 6. Запускаем приложение
 streamlit run app/main.py
+```
 
 🌐 Демо
 Попробовать онлайн: [Hugging Face Space](https://huggingface.co/spaces/Zirok05/CreditScoringSystemSimulation)
