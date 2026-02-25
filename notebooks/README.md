@@ -43,8 +43,8 @@ jupyter notebook notebooks/01_EDA.ipynb
 🔄 Связь с кодом
 
 Все преобразования, описанные в ноутбуке, реализованы в:  
-[src/utils/](../src/utils/README.md)  
-[app/utils/](../app/utils/README.md)  
+[src/utils/README.md](../src/utils/README.md)  
+[app/utils/README.md](../app/utils/README.md)  
 Бизнес-правила:  
 [app/models/escalation.py](../app/models/escalation.py)  
 📚 Подробнее  
