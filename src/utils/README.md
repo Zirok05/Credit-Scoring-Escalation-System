@@ -61,5 +61,5 @@ plot_roc_curve(data['y_test'], test_pred, test_auc, task)
 ```
 📚 Подробнее  
 [Обучение моделей](../README.md)  
-[Конфиги](../../configs/README.md)  
+[Конфиги Hydra](../../configs/README.md)  
 [Обученные препроцессоры](../../preprocessors/README.md)  
