@@ -92,10 +92,10 @@ if st.button("Перейти к симуляции"):
 ## 🔧 Используемые модули
 
 application.py → models/escalation.py, models/interpretation.py, utils/data_loader.py  
-simulation.py → simulation/core/, simulation/controllers/, simulation/visualization/, utils/data_loader.py  
+simulation.py → simulation/core/, simulation/controllers/, simulation/visualization/, utils/data_loader.py   
 
-📚 Подробнее
-[Логика эскалации](../models/escalation.py)
-[Интерпретация](../models/interpretation.py)
-[Ядро симуляции](../simulation/core/README.md)
-[Утилиты](../utils/README.md)
+📚 Подробнее  
+[Логика эскалации](../models/escalation.py)  
+[Интерпретация](../models/interpretation.py)  
+[Ядро симуляции](../simulation/core/README.md)  
+[Утилиты](../utils/README.md)  
