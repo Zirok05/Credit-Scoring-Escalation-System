@@ -124,14 +124,18 @@ python src/train_full_dataset.py
 Создать скрипт обучения (по аналогии с train_lgbm.py)
 Добавить модель в app/utils/data_loader.py для Streamlit
 
-📈 Метрики лучших моделей
-Модель	AUC	Файл
-XGBoost	0.8672	models/best/train_150/xgb_150_model.pkl
-LightGBM	0.86705	models/best/train_150/lgbm_150_model.pkl
-CatBoost	0.86695	models/best/train_150/catboost_150_model.pkl
-Logistic Regression	0.85804  models/best/train_150/logreg_150_model.pkl
-Decision Tree 0.85330  models/best/train_150/dtc_150_model.pkl
-Random Forest 0.86341 models/best/train_150/rfc_150_model.pkl
+## 📈 Метрики лучших моделей
+
+| № | Модель | AUC | Файл |
+|---|--------|-----|------|
+| 1 | 🏆 **LightGBM** | **0.86705** | `lgbm_150_model.pkl` |
+| 2 | 🥈 XGBoost | 0.86672 | `xgb_150_model.pkl` |
+| 3 | 🥉 CatBoost | 0.86695 | `catboost_150_model.pkl` |
+| 4 | 🌲 Random Forest | 0.86341 | `rfc_150_model.pkl` |
+| 5 | 📈 Logistic Regression | 0.85804 | `logreg_150_model.pkl` |
+| 6 | 🌳 Decision Tree | 0.85330 | `dtc_150_model.pkl` |
+
+*Путь ко всем файлам: `models/best/train_150/`*
 
 📚 Подробнее
 Конфиги Hydra
