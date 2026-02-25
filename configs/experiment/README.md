@@ -7,15 +7,15 @@
 - Распределение предсказаний
 - `Feature importance` / анализ коэффициентов линейной модели
 - Результаты `GridSearchCV` (где применимо)
-- Все метрики (`AUC`, `AP`, `Precision`, `Recall`, `F1`, `MCC`)
+- Все метрики (`AUC`, `AP`, `Precision`, `Recall`, `F1`, `MCC (Matthews Correlation Coefficient)`)
 
 ## 📊 Logistic Regression (4 эксперимента)
 
 | № | Эксперимент | AUC | Ссылка |
 |---|-------------|-----|--------|
-| 1 | logreg_baseline | 0.8552 | [🔗 ClearML](ССЫЛКА_1) |
-| 2 | logreg_cv_l2 | 0.8571 | [🔗 ClearML](ССЫЛКА_2) |
-| 3 | logreg_cv_l1 | 0.8578 | [🔗 ClearML](ССЫЛКА_3) |
+| 1 | logreg_lbfgs_l2 | 0.861843 | [🔗 ClearML](https://app.clear.ml/projects/6d09fa9bc1dd4a8a90bfba5a6582051c/experiments/cd326b00d1b74dd18fad4c7d904ee974/output/execution) |
+| 2 | logreg_cv_liblinear_l2 | 0.862310| [🔗 ClearML](https://app.clear.ml/projects/6d09fa9bc1dd4a8a90bfba5a6582051c/experiments/4b47451ff78b4b99b827ece2bfea03c4/output/execution) |
+| 3 | logreg_cv_saga_l2 | 0.861719 | [🔗 ClearML](https://app.clear.ml/projects/6d09fa9bc1dd4a8a90bfba5a6582051c/experiments/31f5d7c550a34f1f87a516f2dfa7de5b/output/execution) |
 | 4 | logreg_final (C=550, l1) | **0.85804** | [🔗 ClearML](ССЫЛКА_4) |
 
 ## 📊 Decision Tree (3 эксперимента)
