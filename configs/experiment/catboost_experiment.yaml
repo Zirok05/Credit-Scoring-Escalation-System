@@ -1,0 +1,47 @@
+defaults:
+  - /preprocessor: default
+  - /model: catboost
+  - _self_
+
+data:
+  train_path: "datasets/cs-training.csv"
+  predict_path: "datasets/cs-test.csv"
+  target_col: "SeriousDlqin2yrs"
+
+preprocessor:
+  drop_special_codes: true
+
+model:
+  use_cv: false
+  params:
+    'boosting_type': 'Ordered'
+    'depth': 8
+    'learning_rate': 0.1
+    'rsm': 1.0
+    'subsample': 1.0
+    'bagging_temperature': 0.5
+    'l2_leaf_reg': 1.0
+    'random_strength': 0.5
+
+training:
+  test_size: 0.2
+  random_state: 42
+  stratify: true
+
+cleaning:
+  remove_outliers: true
+
+approval_threshold:
+  default: 0.5
+
+scaler:
+  type: "standard"
+
+logging:
+  project: "GiveMeSomeCredit"
+  name: "catboost"
+  tags: ["catboost", "best"]
+
+submission:
+  output_dir: "kaggle_submissions"
+  filename: "submission.csv"

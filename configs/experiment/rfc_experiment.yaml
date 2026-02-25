@@ -1,0 +1,43 @@
+defaults:
+  - /preprocessor: default
+  - /model: rfc
+  - _self_
+
+data:
+  train_path: "datasets/cs-training.csv"
+  predict_path: "datasets/cs-test.csv"
+  target_col: "SeriousDlqin2yrs"
+
+preprocessor:
+  drop_special_codes: true
+
+model:
+  use_cv: false
+  params:
+    criterion: 'entropy'
+    max_depth: 8
+    min_samples_leaf: 4
+    min_samples_split: 2
+    n_estimators: 100
+training:
+  test_size: 0.2
+  random_state: 42
+  stratify: true
+
+cleaning:
+  remove_outliers: true
+
+approval_threshold:
+  default: 0.5
+
+scaler:
+  type: "standard"
+
+logging:
+  project: "GiveMeSomeCredit"
+  name: "rfc"
+  tags: ["rfc"]
+
+submission:
+  output_dir: "kaggle_submissions"
+  filename: "submission.csv"

@@ -1,0 +1,45 @@
+defaults:
+  - /preprocessor: default
+  - /model: dtc
+  - _self_
+
+data:
+  train_path: "datasets/cs-training.csv"
+  predict_path: "datasets/cs-test.csv"
+  target_col: "SeriousDlqin2yrs"
+
+preprocessor:
+  drop_special_codes: true
+
+model:
+  params:
+    'criterion': 'gini'
+    'max_depth': 5
+    'min_impurity_decrease': 0.0
+    'min_samples_leaf': 1
+    'min_samples_split': 2
+    'splitter': 'best'
+  use_cv: false
+
+training:
+  test_size: 0.2
+  random_state: 42
+  stratify: true
+
+cleaning:
+  remove_outliers: true
+
+approval_threshold:
+  default: 0.5
+
+scaler:
+  type: "standard"
+
+logging:
+  project: "GiveMeSomeCredit"
+  name: "dtc"
+  tags: ["dtc"]
+
+submission:
+  output_dir: "kaggle_submissions"
+  filename: "submission.csv"
