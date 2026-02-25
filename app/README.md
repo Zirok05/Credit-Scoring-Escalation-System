@@ -32,8 +32,6 @@ app/
 │ ├── controllers/ # PID-регулятор
 │ └── visualization/ # Графики и анимация
 └── utils/ # Вспомогательные модули
-├── credit_preprocessor.py # Препроцессор (копия из src)
-└── data_loader.py # Загрузка моделей и препроцессоров
 ```
 
 
