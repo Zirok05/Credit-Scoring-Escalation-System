@@ -88,8 +88,8 @@ train_dtc.py  # обучение Decision Tree
 6. Сохраняет препроцессоры и модель  
 
 #### Каждый эксперимент автоматически логирует:  
-Метрики: AUC, AP, Precision, Recall, F1, MCC (Matthews Correlation Coefficient) 
-Графики: ROC-кривая, PR-кривая, confusion matrix,   
+**Метрики**: AUC, AP, Precision, Recall, F1, MCC (Matthews Correlation Coefficient) 
+**Графики**: ROC-кривая, PR-кривая, confusion matrix,   
 График распределения предсказаний по истинным классам  
 Feature importance (для tree-based)  
 Анализ Коэффициентов для линейных моделей  
