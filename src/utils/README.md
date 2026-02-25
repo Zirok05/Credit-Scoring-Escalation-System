@@ -15,7 +15,7 @@ utils/
 ### `credit_preprocessor.py`
 
 Кастомный трансформер, наследующий `BaseEstimator`, `TransformerMixin` из sklearn.  
-Содержит все преобразования из [EDA](../notebooks/EDA.ipynb)
+Содержит все преобразования из [EDA](..//../notebooks/EDA.ipynb)
 
 **Основные классы:**
 - `CreditDataPreprocessor` - создание фич, обработка пропусков, выбросов, кодов 96/98
