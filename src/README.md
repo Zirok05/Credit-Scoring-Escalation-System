@@ -71,14 +71,14 @@ training:
 ### 2. Скрипты обучения
 
 #### Каждой модели соответствует свой скрипт в src/:  
-```
-train_lgbm.py  # обучение LightGBM  
-train_logreg.py  # обучение Logistic Regression  
-train_xgb.py  # обучение XGBoost  
-train_rfc.py  # обучение Random Forest  
-train_catboost.py  # обучение CatBoost  
-train_dtc.py  # обучение Decision Tree  
-```
+
+`train_lgbm.py` - обучение LightGBM  
+`train_logreg.py` - обучение Logistic Regression  
+`train_xgb.py` - обучение XGBoost  
+`train_rfc.py` - обучение Random Forest  
+`train_catboost.py` - обучение CatBoost  
+`train_dtc.py` - обучение Decision Tree  
+
 #### Скрипт:  
 1. Принимает конфиг через Hydra  
 2. Создаёт Таск для ClearML  
@@ -100,7 +100,6 @@ Feature importance (для tree-based)
 Всего проведено 29 экспериментов:  
 GridSearchCV для подбора параметров  
 Финальное обучение на полном датасете (150k строк)  
-Подробнее: EXPERIMENTS.md  
 
 ### 📊 Финальное обучение (train_full_dataset.py)
 
@@ -134,6 +133,6 @@ python src/train_full_dataset.py
 *Путь ко всем файлам: `models/best/train_150/`*  
 
 📚 Подробнее  
-Конфиги Hydra  
-Эксперименты ClearML  
-Streamlit приложение  
+[Конфиги Hydra](../configs/README.md)
+[ClearML эксперименты](../configs/experiment/README.md)
+[Streamlit приложение](../app/README.md) 
