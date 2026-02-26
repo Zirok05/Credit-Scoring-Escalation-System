@@ -87,7 +87,7 @@ Credit-Scoring-Escalation-System/
 └── datasets/         # Ссылка на данные (сами данные не в репозитории)
 ```
 ## 🛠 Технологии
-`Python` 3.11  
+`Python 3.11`
 `Scikit-learn` - `logistic regression`, `random forest`, `decision tree`  
 `XGBoost` / `LightGBM` / `CatBoost` - градиентный бустинг  
 `Hydra` - управление конфигами  
