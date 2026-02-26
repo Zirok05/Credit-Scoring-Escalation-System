@@ -53,8 +53,8 @@ streamlit run app/main.py
 `Logistic Regression` (первый уровень)  
 `XGBoost` / `LightGBM` / `CatBoost` / `Random Forest` (второй уровень)  
 
-📚 Подробнее
-[Страницы приложения](pages/README.md)
-[Логика эскалации и интерпретации](models/README.md)
-[Симуляция](simulation/README.md)
-[Утилиты](utils/README.md)
+📚 Подробнее  
+[Страницы приложения](pages/README.md)  
+[Логика эскалации и интерпретации](models/README.md)  
+[Симуляция](simulation/README.md)  
+[Утилиты](utils/README.md)  
