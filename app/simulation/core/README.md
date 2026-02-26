@@ -172,7 +172,7 @@ batch_decisions, batch_manual_mask, stats = escalation_decision(
 `pages/simulation.py` - основной цикл симуляции  
 `simulation/visualization/` - для сбора данных на графики  
 
-📚 Подробнее
+📚 Подробнее  
 [Модель эскалации](../../models/README.md)  
 [PID-регулятор](../controllers/README.md)  
 [Визуализация](../visualization/README.md)  
