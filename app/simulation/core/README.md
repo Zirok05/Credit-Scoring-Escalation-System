@@ -16,7 +16,8 @@ core/
 Создает реалистичное поминутное распределение заявок на 24 часа вперед.  
 
 **Класс `TrafficGenerator`:**
-```python
+```
+python
 ''' Пример использования '''
 gen = TrafficGenerator(total_applications=101503)
 minute_counts = gen.generate_minute_counts(start_hour=17, start_minute=30)
