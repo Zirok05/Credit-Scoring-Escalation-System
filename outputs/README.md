@@ -22,9 +22,9 @@ outputs/
 Каждая папка вида `YYYY-MM-DD/HH-MM-SS/` соответствует **одному запуску** скрипта обучения.
 
 ### Что сохраняется:
-- **`*_model.pkl`** - обученная модель (joblib)
-- **`credit_transformer.pkl`** - препроцессор (CreditDataPreprocessor)
-- **`credit_scaler.pkl`** - скейлер (CreditScaler)
+- **`*_model.pkl`** - обученная модель (`joblib`)
+- **`credit_transformer.pkl`** - препроцессор (`CreditDataPreprocessor`)
+- **`credit_scaler.pkl`** - скейлер (`CreditScaler`)
 - **`submission.csv`** - файл для отправки на Kaggle
 - **`*.log`** - лог консоли (вывод скрипта)
 
