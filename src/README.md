@@ -124,8 +124,8 @@ python src/train_full_dataset.py
 | № | Модель | AUC | Файл |
 |---|--------|-----|------|
 | 1 | 🏆 **LightGBM** | **0.86705** | `lgbm_150_model.pkl` |
-| 2 | 🥈 XGBoost | 0.86672 | `xgb_150_model.pkl` |
-| 3 | 🥉 CatBoost | 0.86695 | `catboost_150_model.pkl` |
+| 2 | 🥈 CatBoost | 0.86695 | `catboost_150_model.pkl` |
+| 3 | 🥉 XGBoost | 0.86672 | `xgb_150_model.pkl` |
 | 4 | 🌲 Random Forest | 0.86341 | `rfc_150_model.pkl` |
 | 5 | 📈 Logistic Regression | 0.85804 | `logreg_150_model.pkl` |
 | 6 | 🌳 Decision Tree | 0.85330 | `dtc_150_model.pkl` |
